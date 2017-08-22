@@ -1,0 +1,31 @@
+swagger: '2.0'
+info:
+  description: Hello World API with Swagger
+  version: 1.0.0
+  title: Hello World API
+  termsOfService: Use it on your own risk
+  contact:
+    email: radu103@hotmail.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+host: host-name-here.com
+basePath: /
+schemes:
+  - http
+paths:
+  /:
+    get:
+      summary: Check server connection
+      description: ''
+      operationId: ping
+      consumes:
+        - application/x-www-form-urlencoded
+      produces:
+        - application/text
+      responses:
+        '200':
+          description: Pong !
+externalDocs:
+  description: Find out more about Swagger
+  url: 'http://swagger.io'
