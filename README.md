@@ -1,3 +1,5 @@
+![Travis CI build status](https://travis-ci.org/radu103/nodejs-hello-world-api.svg?branch=master)
+
 # nodejs-hello-world-api
 
 * Node.js Hello World API with Express, Swagger definition
